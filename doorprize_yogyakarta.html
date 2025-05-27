@@ -1,0 +1,82 @@
+<html>
+<head>
+<script type = "text/javascript" src = "jquery-3.3.1.min.js"></script>
+<script type = "text/javascript" src = "js_randomize.js"></script>
+<link href="style.css" rel="stylesheet">
+<title>Hadiah Untuk Nasabah Setia</title>
+</head>
+<body class="bg">
+<input type="hidden" id="kpr" value="KP REGIONAL YOGYAKARTA">
+<input type="hidden" id="halaman" value="yogyakarta">
+<table width="100%" border="0" class="d">
+    <tr>
+        <td align="center"> 
+            <br>
+            <br>
+            <strong><font size="72" color="#000">KP REGIONAL YOGYAKARTA</font></strong>
+            <br>
+            <br>
+            <br>
+        </td>
+   </tr>
+   <tr>
+        <td align="center">
+            <table width="100%">
+                <tr>
+                    <td width="30%">&nbsp;</td>
+                    <td width="30%" align="center">
+                        <a href="#"><img src="start.png" width="500" height="500" id="btnstart"></a>
+                        <a href="#"><img src="" width="500" height="500" id="btnstop"></a>
+                    </td>
+                    <td width="30%" align="center" valign="top">
+                    <table>
+                    	<tr>
+                        	<td align="center">
+                            <strong><font size="6" color="#000">LIST KPR</font></strong>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="center">
+							<hr>
+                            </td>
+                        </tr>
+                        <tr>
+                        	<td align="center">
+                                <select name='list_kpr' id='list_kpr' onchange='javascript:ganti_halaman(this.value)'>
+                                  <option value=''>--Select--</option>
+                                  <option value='surabaya'  >KP Regional Surabaya</option>
+                                  <option value='jakarta' >KP Regional Jakarta</option>
+                                  <option value='medan' >KP Regional Medan</option>
+                                  <option value='denpasar' >KP Regional Denpasar</option>
+                                  <option value='makassar' >KP Regional Makassar</option>
+                                  <option value='palembang' >KP Regional Palembang</option>
+                                  <option value='yogyakarta' selected>KP Regional Yogyakarta</option>
+                                  <option value='semarang' >KP Regional Semarang</option>
+                                  <option value='padang'>KP Regional Padang</option>
+                                  <option value='bandung' >KP Regional Bandung</option>
+                                </select>
+                            </td>
+                        </tr>
+                    
+                    </table>
+                    
+                    
+                    </td>
+                </tr>
+        	</table>
+        </td>
+	</tr>
+</table>
+<table id='footer' >
+	<tr>
+		<td align='center'>
+				<label id="lblnominator_list"></label>
+				<input type="hidden" name="txtnominator_list" id="txtnominator_list" />
+				<strong><font size="6" color="#000"><label id="lblnominator">&nbsp;</label></font></strong>
+				<input type="hidden" name="txtnominator" id="txtnominator" />
+				<strong><font size="6" color="#000"><label id="lblmessage"></label></font></strong>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
