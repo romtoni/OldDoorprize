@@ -28,23 +28,22 @@ git clone https://github.com/romtoni/OldDoorprize.git
 2. Check manual book that included in this project
 
 ## 🎮 Usage
-```bash
-   - Add participants manually or via CSV import (if supported).
-   - Click "Start Drawing" to randomly select a winner.
-   - Repeat for multiple prizes or rounds.
-   - Celebrate 🎉
-```
+
+- Add participants manually or via CSV import (if supported).
+- Click "Start Drawing" to randomly select a winner.
+- Repeat for multiple prizes or rounds.
+- Celebrate 🎉
+
 
 ---
 
 ## 🧩 Customization
 
 You can customize:
-```bash
-    - Branding (colors, logos)
-    - Prize names or categories
-    - Participant data format
-```
+- Branding (colors, logos)
+- Prize names or categories
+- Participant data format
+
 
 See the config or settings section in the code to adjust.
 
