@@ -1,4 +1,4 @@
-# 🎁 OldDoorprize ![Finished](https://img.shields.io/badge/finished-brightgreen) ![Outdated](https://img.shields.io/badge/outdated-red)
+# 🎁 OldDoorprize ![Finished](https://img.shields.io/badge/finished-brightgreen) ![Outdated](https://img.shields.io/badge/outdated-grey)
 
 [![🌐 HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  [![⚙️ JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  [![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)](https://www.php.net/) [![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat&logo=mysql&logoColor=white)](https://www.mysql.com/)
 
